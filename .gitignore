@@ -1,0 +1,30 @@
+echo "
+# Configuration files with secrets
+.pypirc
+*pypirc*
+nano
+*.token
+*.secret
+
+# Build artifacts  
+build/
+dist/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.py[co]
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+" > .gitignore
